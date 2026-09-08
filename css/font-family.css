@@ -1,0 +1,1428 @@
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYlK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYsK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYnK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYmK-4E4Q.woff2) format('woff2');
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+     font-display: swap;
+ }
+ @font-face {
+     font-family: 'Exo 2';
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/exo2/v15/7cHmv4okm5zmbtYoK-4.woff2) format('woff2');
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+     font-display: swap;
+ }
+/* NEW font */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBw3uBZFI.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBynuBZFI.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBwXuBZFI.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBwHuBZFI.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0OMImSLYBIv1o4X1M8cce4OdVisMz5nZRqy6cmmmU3t3NeCAAFOvV9SNjBznuB.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJDxzGOF.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJnxzGOF.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJLxzGOF.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJPxzGOF.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-stretch: 100%;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/nunitosans/v19/pe0AMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfUVwoNnq4CLz0_kJ3xzA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-otp-verification:before {
+  content: "\ea55";
+}
+.icon-graphical-status:before {
+  content: "\ea56";
+}
+.icon-web-cookies:before {
+  content: "\ea57";
+}
+.icon-taxi-cancel:before {
+  content: "\ea58";
+}
+.icon-history-detail:before {
+  content: "\ea59";
+}
+.icon-low-battery-consumption:before {
+  content: "\ea5a";
+}
+.icon-in-app-navigation:before {
+  content: "\ea5b";
+}
+.icon-database-indexing-for-fast-page-loading:before {
+  content: "\ea5c";
+}
+.icon-server-compatibility:before {
+  content: "\ea5d";
+}
+.icon-google-maps:before {
+  content: "\ea5e";
+}
+.icon-twilio-sms-gateway:before {
+  content: "\ea5f";
+}
+.icon-mobile-verification:before {
+  content: "\ea60";
+}
+.icon-baby-seat:before {
+  content: "\ea61";
+}
+.icon-free-web-panel-for-taxi-companies:before {
+  content: "\ea62";
+}
+.icon-money-transfer:before {
+  content: "\ea63";
+}
+.icon-administration:before {
+  content: "\ea64";
+}
+.icon-h_blog:before {
+  content: "\ea65";
+  color: #f59e0b;
+}
+.icon-whatsapp:before {
+  content: "\ea53";
+  color: #25d366;
+}
+.icon-whatsapp-fill:before {
+  content: "\ea54";
+  color: #25d366;
+}
+.icon-event:before {
+  content: "\ea4d";
+  color: #dbbf31;
+}
+.icon-infrastructure:before {
+  content: "\ea4e";
+  color: #00abce;
+}
+.icon-careers:before {
+  content: "\ea4f";
+  color: #006f64;
+}
+.icon-corporate:before {
+  content: "\ea50";
+  color: #dc8758;
+}
+.icon-about-us:before {
+  content: "\ea51";
+  color: #10b981;
+}
+.icon-contact-us:before {
+  content: "\ea52";
+  color: #a855f7;
+}
+.icon-pet-care:before {
+  content: "\ea49";
+}
+.icon-beauty:before {
+  content: "\ea4a";
+}
+.icon-car-care:before {
+  content: "\ea4b";
+}
+.icon-towtruck:before {
+  content: "\ea4c";
+}
+.icon-document-new:before {
+  content: "\ea2b";
+}
+.icon-dogs-new:before {
+  content: "\ea2c";
+}
+.icon-electronics-new:before {
+  content: "\ea2d";
+}
+.icon-family-new:before {
+  content: "\ea2e";
+}
+.icon-free-voucher-new:before {
+  content: "\ea2f";
+}
+.icon-gallary-new:before {
+  content: "\ea30";
+}
+.icon-gift-new:before {
+  content: "\ea31";
+}
+.icon-grooming-new:before {
+  content: "\ea32";
+}
+.icon-key-new:before {
+  content: "\ea33";
+}
+.icon-kids-shop-new:before {
+  content: "\ea34";
+}
+.icon-laundry-new:before {
+  content: "\ea35";
+}
+.icon-lunch-box-new:before {
+  content: "\ea36";
+}
+.icon-mall-new:before {
+  content: "\ea37";
+}
+.icon-notifications-new:before {
+  content: "\ea38";
+}
+.icon-pet-store-new:before {
+  content: "\ea39";
+}
+.icon-pharmacy-store-new:before {
+  content: "\ea3a";
+}
+.icon-search-new:before {
+  content: "\ea3b";
+}
+.icon-store-wise-commission-new:before {
+  content: "\ea3c";
+}
+.icon-teamwork-new:before {
+  content: "\ea3d";
+}
+.icon-technician-new:before {
+  content: "\ea3e";
+}
+.icon-time-slot-new:before {
+  content: "\ea3f";
+}
+.icon-towed-car-new:before {
+  content: "\ea40";
+}
+.icon-tow-truck__new:before {
+  content: "\ea41";
+}
+.icon-tow-truck_2_new:before {
+  content: "\ea42";
+}
+.icon-voice-message-new:before {
+  content: "\ea43";
+}
+.icon-workers-new:before {
+  content: "\ea44";
+}
+.icon-cancel-driver-new:before {
+  content: "\ea45";
+}
+.icon-closed-sign-new:before {
+  content: "\ea46";
+}
+.icon-delivery-location-new:before {
+  content: "\ea47";
+}
+.icon-delivery-man-new:before {
+  content: "\ea48";
+}
+.icon-airport:before {
+  content: "\ea1c";
+}
+.icon-assistance-with-ride:before {
+  content: "\ea1d";
+}
+.icon-electric:before {
+  content: "\ea1e";
+}
+.icon-facebook:before {
+  content: "\ea1f";
+}
+.icon-instagram:before {
+  content: "\ea20";
+}
+.icon-linkedin:before {
+  content: "\ea21";
+}
+.icon-medical-services:before {
+  content: "\ea22";
+}
+.icon-pet:before {
+  content: "\ea23";
+}
+.icon-pinterest:before {
+  content: "\ea24";
+}
+.icon-real-estate-offer:before {
+  content: "\ea25";
+}
+.icon-services:before {
+  content: "\ea26";
+}
+.icon-taxi-with-accessibility:before {
+  content: "\ea27";
+}
+.icon-track-emp:before {
+  content: "\ea28";
+}
+.icon-twitter:before {
+  content: "\ea29";
+}
+.icon-youtube:before {
+  content: "\ea2a";
+}
+.icon-car-wash:before {
+  content: "\ea04";
+  color: #00abce;
+}
+.icon-deliverAll:before {
+  content: "\ea05";
+  color: #eb1d90;
+}
+.icon-deliveryking:before {
+  content: "\ea06";
+  color: #d41d64;
+}
+.icon-fetures:before {
+  content: "\ea07";
+  color: #ac2df2;
+}
+.icon-fleet-company:before {
+  content: "\ea08";
+  color: #DC8758;
+}
+.icon-food-delivery1:before {
+  content: "\ea09";
+  color: #f59e0b;
+}
+.icon-front-panel:before {
+  content: "\ea0a";
+  color: #00abce;
+}
+.icon-grocery-delivery:before {
+  content: "\ea0b";
+  color: #006f64;
+}
+.icon-house-cleaning:before {
+  content: "\ea0c";
+  color: #ff623a;
+}
+.icon-live-demo:before {
+  content: "\ea0d";
+  color: #10b981;
+}
+.icon-massage1:before {
+  content: "\ea0e";
+  color: #f59e0b;
+}
+.icon-more1:before {
+  content: "\ea0f";
+  color: #6366f1;
+}
+.icon-parcel-delivery:before {
+  content: "\ea10";
+  color: #00abce;
+}
+.icon-pharmacy-delivery:before {
+  content: "\ea11";
+  color: #dbbf31;
+}
+.icon-pricing1:before {
+  content: "\ea12";
+  color: #f5791f;
+}
+.icon-security-guard:before {
+  content: "\ea13";
+  color: #db2626;
+}
+.icon-taxi1:before {
+  content: "\ea14";
+  color: #f59e0b;
+}
+.icon-tracking2:before {
+  content: "\ea15";
+  color: #117639;
+}
+.icon-admin:before {
+  content: "\ea16";
+  color: #eb1d90;
+}
+.icon-app-flow:before {
+  content: "\ea17";
+  color: #11b7a5;
+}
+.icon-app-screens:before {
+  content: "\ea18";
+  color: #3b82f6;
+}
+.icon-beautician:before {
+  content: "\ea19";
+  color: #eb1d90;
+}
+.icon-carpool:before {
+  content: "\ea1a";
+  color: #5c16ff;
+}
+.icon-car-rental:before {
+  content: "\ea1b";
+  color: #d41d64;
+}
+.icon-mobile_application1:before {
+  content: "\e9c6";
+  color: #3b82f6;
+}
+.icon-web-admin:before {
+  content: "\ea00";
+}
+.icon-support-panel:before {
+  content: "\ea01";
+}
+.icon-user-app:before {
+  content: "\ea02";
+}
+.icon-taxi-app:before {
+  content: "\ea03";
+}
+.icon-clock-time:before {
+  content: "\e9fb";
+}
+.icon-doostep-delivery:before {
+  content: "\e9fc";
+}
+.icon-take-away-feature:before {
+  content: "\e9fd";
+}
+.icon-safety-badge:before {
+  content: "\e9fe";
+}
+.icon-web-mob-platform:before {
+  content: "\e9ff";
+}
+.icon-wine_cat:before {
+  content: "\e9f1";
+}
+.icon-construction_cat:before {
+  content: "\e9f2";
+}
+.icon-flower_cat:before {
+  content: "\e9f3";
+}
+.icon-food_cat:before {
+  content: "\e9f4";
+}
+.icon-grocery_cat:before {
+  content: "\e9f5";
+}
+.icon-more:before {
+  content: "\e9f6";
+}
+.icon-pharmacy_cat:before {
+  content: "\e9f7";
+}
+.icon-stationery_cat:before {
+  content: "\e9f8";
+}
+.icon-supermarket_cat:before {
+  content: "\e9f9";
+}
+.icon-water-bottle_cat:before {
+  content: "\e9fa";
+}
+.icon-stores-chain:before {
+  content: "\e9ee";
+}
+.icon-grocery-online:before {
+  content: "\e9ef";
+}
+.icon-cloud-store:before {
+  content: "\e9f0";
+}
+.icon-promo_code:before {
+  content: "\e9ec";
+}
+.icon-god-eye:before {
+  content: "\e9ed";
+}
+.icon-web-panel:before {
+  content: "\e9e6";
+}
+.icon-features:before {
+  content: "\e9e7";
+}
+.icon-application-flow:before {
+  content: "\e9e8";
+}
+.icon-more-info:before {
+  content: "\e9e9";
+}
+.icon-purchase:before {
+  content: "\e9ea";
+}
+.icon-customizations:before {
+  content: "\e9eb";
+}
+.icon-chat:before {
+  content: "\e9e5";
+}
+.icon-medicine_fill:before {
+  content: "\e9d4";
+}
+.icon-food-delivery_fill:before {
+  content: "\e9d5";
+}
+.icon-delivery_genie_fill:before {
+  content: "\e9d6";
+}
+.icon-multi_delivery:before {
+  content: "\e9d7";
+}
+.icon-car-sharing_fill:before {
+  content: "\e9d8";
+}
+.icon-moto_fill:before {
+  content: "\e9d9";
+}
+.icon-intercity_fill:before {
+  content: "\e9da";
+}
+.icon-book_later_fill:before {
+  content: "\e9db";
+}
+.icon-suitcase_fill:before {
+  content: "\e9dc";
+}
+.icon-taxi_bid_fill:before {
+  content: "\e9dd";
+}
+.icon-fruits_fill:before {
+  content: "\e9de";
+}
+.icon-supermarket_store_fill:before {
+  content: "\e9df";
+}
+.icon-flower_fill:before {
+  content: "\e9e0";
+}
+.icon-grocery_fill:before {
+  content: "\e9e1";
+}
+.icon-single-parcel-delivery:before {
+  content: "\e9e2";
+}
+.icon-delivery-runner_fill:before {
+  content: "\e9e3";
+}
+.icon-car_rent_fill:before {
+  content: "\e9e4";
+}
+.icon-arrow_right_thin:before {
+  content: "\e9cf";
+}
+.icon-clients:before {
+  content: "\e9d0";
+}
+.icon-hat:before {
+  content: "\e9d1";
+}
+.icon-play-arrow:before {
+  content: "\e9d2";
+}
+.icon-satisfied-customer:before {
+  content: "\e9d3";
+}
+.icon-rating:before {
+  content: "\e9cb";
+}
+.icon-salary_3135673:before {
+  content: "\e9cc";
+}
+.icon-certificate_3135763:before {
+  content: "\e9cd";
+}
+.icon-chair_2157306:before {
+  content: "\e9ce";
+}
+.icon-manage-gallery:before {
+  content: "\e9ca";
+}
+.icon-organization_panel:before {
+  content: "\e9c8";
+}
+.icon-taxi-dispatch:before {
+  content: "\e9c9";
+}
+.icon-front_end:before {
+  content: "\e9c5";
+}
+.icon-mobile_application:before {
+  content: "\e9c6";
+}
+.icon-admin_panel:before {
+  content: "\e9c7";
+}
+.icon-play-button:before {
+  content: "\e9c2";
+}
+.icon-right-arrow:before {
+  content: "\e9c3";
+}
+.icon-left-arrow:before {
+  content: "\e9c4";
+}
+.icon-briefcase:before {
+  content: "\e9c1";
+}
+.icon-store:before {
+  content: "\e9be";
+}
+.icon-healthy-food:before {
+  content: "\e9bf";
+}
+.icon-flowers:before {
+  content: "\e9c0";
+}
+.icon-demo-app:before {
+  content: "\e9ba";
+}
+.icon-white-label:before {
+  content: "\e9bb";
+}
+.icon-application-store:before {
+  content: "\e9bc";
+}
+.icon-home-check:before {
+  content: "\e9bd";
+}
+.icon-delivery-truck:before {
+  content: "\e9b6";
+}
+.icon-fork:before {
+  content: "\e9b7";
+}
+.icon-standard-taxi:before {
+  content: "\e9b8";
+}
+.icon-moto:before {
+  content: "\e9b9";
+}
+.icon-color-theme:before {
+  content: "\e999";
+}
+.icon-inter-city:before {
+  content: "\e99a";
+}
+.icon-ride-bidding:before {
+  content: "\e99b";
+}
+.icon-subscription-plan:before {
+  content: "\e99c";
+}
+.icon-taxi-placeholder:before {
+  content: "\e99d";
+}
+.icon-x-to-y:before {
+  content: "\e99e";
+}
+.icon-app-launched:before {
+  content: "\e99f";
+}
+.icon-award:before {
+  content: "\e9a0";
+}
+.icon-employee:before {
+  content: "\e9a1";
+}
+.icon-medicines:before {
+  content: "\e9a2";
+}
+.icon-grocery:before {
+  content: "\e9a3";
+}
+.icon-delivery_process:before {
+  content: "\e9a4";
+}
+.icon-effective_experience:before {
+  content: "\e9a5";
+}
+.icon-efective_solution:before {
+  content: "\e9a6";
+}
+.icon-manager:before {
+  content: "\e9a7";
+}
+.icon-privacy:before {
+  content: "\e9a8";
+}
+.icon-update:before {
+  content: "\e9a9";
+}
+.icon-rejectection-support:before {
+  content: "\e9aa";
+}
+.icon-source-code:before {
+  content: "\e9ab";
+}
+.icon-app:before {
+  content: "\e9ac";
+}
+.icon-delivery-rating:before {
+  content: "\e9ad";
+}
+.icon-payment-gateway:before {
+  content: "\e9ae";
+}
+.icon-currencies:before {
+  content: "\e9af";
+}
+.icon-order-tracking:before {
+  content: "\e9b0";
+}
+.icon-multi-stores:before {
+  content: "\e9b1";
+}
+.icon-single-store:before {
+  content: "\e9b2";
+}
+.icon-contactless-delivery:before {
+  content: "\e9b3";
+}
+.icon-take-away:before {
+  content: "\e9b4";
+}
+.icon-doorstep_delivery:before {
+  content: "\e9b5";
+}
+.icon-biometric:before {
+  content: "\e989";
+}
+.icon-credit-card:before {
+  content: "\e942";
+}
+.icon-login:before {
+  content: "\e984";
+}
+.icon-reward:before {
+  content: "\e985";
+  color: #474747;
+}
+.icon-social-media-advertisement:before {
+  content: "\e986";
+}
+.icon-video-call:before {
+  content: "\e987";
+}
+.icon-adwords:before {
+  content: "\e988";
+}
+.icon-alert-request:before {
+  content: "\e93a";
+}
+.icon-appointment:before {
+  content: "\e93b";
+}
+.icon-baby:before {
+  content: "\e93c";
+}
+.icon-barcode:before {
+  content: "\e93d";
+}
+.icon-call-masking:before {
+  content: "\e93e";
+}
+.icon-call-msg-user:before {
+  content: "\e93f";
+}
+.icon-cancel-delivery:before {
+  content: "\e940";
+}
+.icon-cancel-trip:before {
+  content: "\e941";
+}
+.icon-car-sharing:before {
+  content: "\e943";
+}
+.icon-contactless-delivery1:before {
+  content: "\e944";
+  color: #565656;
+}
+.icon-corporate-ride:before {
+  content: "\e945";
+}
+.icon-customer-support:before {
+  content: "\e946";
+}
+.icon-destination-later:before {
+  content: "\e947";
+}
+.icon-dis-order:before {
+  content: "\e948";
+}
+.icon-driver:before {
+  content: "\e949";
+}
+.icon-earning:before {
+  content: "\e94a";
+}
+.icon-email-phone-login:before {
+  content: "\e94b";
+}
+.icon-emr-contact:before {
+  content: "\e94c";
+}
+.icon-estimetable:before {
+  content: "\e94d";
+}
+.icon-fare-estimation:before {
+  content: "\e94e";
+}
+.icon-feedback:before {
+  content: "\e94f";
+}
+.icon-feedback1:before {
+  content: "\e950";
+}
+.icon-food-delivery:before {
+  content: "\e951";
+}
+.icon-food-order:before {
+  content: "\e952";
+}
+.icon-gender:before {
+  content: "\e953";
+}
+.icon-geo-fancing:before {
+  content: "\e954";
+}
+.icon-internal-chat:before {
+  content: "\e955";
+}
+.icon-invitation:before {
+  content: "\e956";
+}
+.icon-maintenance:before {
+  content: "\e957";
+}
+.icon-manage-document:before {
+  content: "\e958";
+}
+.icon-manage-profile:before {
+  content: "\e959";
+}
+.icon-mana-order-list:before {
+  content: "\e95a";
+}
+.icon-map-navigator:before {
+  content: "\e95b";
+}
+.icon-menu:before {
+  content: "\e95c";
+}
+.icon-mobile-phone:before {
+  content: "\e95d";
+}
+.icon-moto-rental:before {
+  content: "\e95e";
+}
+.icon-multiple-services:before {
+  content: "\e95f";
+}
+.icon-multiple-stopover:before {
+  content: "\e960";
+}
+.icon-museum:before {
+  content: "\e961";
+}
+.icon-note:before {
+  content: "\e962";
+}
+.icon-notebook:before {
+  content: "\e963";
+}
+.icon-notification:before {
+  content: "\e964";
+}
+.icon-online-money:before {
+  content: "\e965";
+}
+.icon-online-pharmacy:before {
+  content: "\e966";
+}
+.icon-order-checkout:before {
+  content: "\e967";
+}
+.icon-order-cost:before {
+  content: "\e968";
+}
+.icon-parcel-send:before {
+  content: "\e969";
+}
+.icon-pricing:before {
+  content: "\e96a";
+}
+.icon-promocode:before {
+  content: "\e96b";
+}
+.icon-promotion:before {
+  content: "\e96c";
+}
+.icon-reception:before {
+  content: "\e96d";
+}
+.icon-refer:before {
+  content: "\e96e";
+}
+.icon-rental:before {
+  content: "\e96f";
+}
+.icon-restaurent:before {
+  content: "\e970";
+}
+.icon-review:before {
+  content: "\e971";
+}
+.icon-ride:before {
+  content: "\e972";
+}
+.icon-schedule-booking:before {
+  content: "\e973";
+}
+.icon-social-media:before {
+  content: "\e974";
+}
+.icon-someone-else:before {
+  content: "\e975";
+}
+.icon-sos:before {
+  content: "\e976";
+}
+.icon-surcharge:before {
+  content: "\e977";
+}
+.icon-take-away1:before {
+  content: "\e978";
+}
+.icon-taxi:before {
+  content: "\e979";
+}
+.icon-taxi-booking-app:before {
+  content: "\e97a";
+}
+.icon-taxi-driver:before {
+  content: "\e97b";
+}
+.icon-toll-road:before {
+  content: "\e97c";
+}
+.icon-tow-truck:before {
+  content: "\e97d";
+}
+.icon-tracking1:before {
+  content: "\e97e";
+}
+.icon-vehicle-options:before {
+  content: "\e97f";
+}
+.icon-wallet3:before {
+  content: "\e980";
+}
+.icon-wallet-credit-pay:before {
+  content: "\e981";
+}
+.icon-wheelchair:before {
+  content: "\e982";
+}
+.icon-x-y-location:before {
+  content: "\e983";
+}
+.icon-quality:before {
+  content: "\e91c";
+}
+.icon-respect:before {
+  content: "\e91d";
+}
+.icon-shopping:before {
+  content: "\e91e";
+}
+.icon-like:before {
+  content: "\e91f";
+}
+.icon-padlock:before {
+  content: "\e920";
+}
+.icon-database:before {
+  content: "\e921";
+}
+.icon-free:before {
+  content: "\e922";
+}
+.icon-privacy-policy:before {
+  content: "\e924";
+}
+.icon-processing:before {
+  content: "\e925";
+}
+.icon-upgrade:before {
+  content: "\e926";
+}
+.icon-application:before {
+  content: "\e901";
+}
+.icon-app1:before {
+  content: "\e900";
+}
+.icon-booking:before {
+  content: "\e902";
+}
+.icon-cancel:before {
+  content: "\e903";
+}
+.icon-computer:before {
+  content: "\e904";
+}
+.icon-dashboard:before {
+  content: "\e905";
+}
+.icon-license:before {
+  content: "\e906";
+}
+.icon-local:before {
+  content: "\e907";
+}
+.icon-money:before {
+  content: "\e908";
+}
+.icon-nda:before {
+  content: "\e909";
+}
+.icon-source-code1:before {
+  content: "\e90a";
+}
+.icon-stamp:before {
+  content: "\e90b";
+}
+.icon-support:before {
+  content: "\e90c";
+}
+.icon-translate:before {
+  content: "\e90d";
+}
+.icon-update1:before {
+  content: "\e90e";
+}
+.icon-wallet:before {
+  content: "\e90f";
+}
+.icon-web:before {
+  content: "\e910";
+}
+.icon-advanced-analytics:before {
+  content: "\e911";
+}
+.icon-printer:before {
+  content: "\e912";
+}
+.icon-statistics:before {
+  content: "\e913";
+}
+.icon-transfer-money:before {
+  content: "\e914";
+}
+.icon-wallet1:before {
+  content: "\e915";
+}
+.icon-wallet2:before {
+  content: "\e916";
+}
+.icon-file:before {
+  content: "\e917";
+}
+.icon-mobile:before {
+  content: "\e918";
+}
+.icon-order:before {
+  content: "\e919";
+}
+.icon-programmer:before {
+  content: "\e91a";
+}
+.icon-website:before {
+  content: "\e91b";
+}
+.icon-massage:before {
+  content: "\e923";
+}
+.icon-dashboard1:before {
+  content: "\e927";
+}
+.icon-tracking:before {
+  content: "\e928";
+}
+.icon-car:before {
+  content: "\e929";
+}
+.icon-meal:before {
+  content: "\e92a";
+}
+.icon-shop:before {
+  content: "\e92b";
+}
+.icon-uniE92C:before {
+  content: "\e92c";
+}
+.icon-uniE92D:before {
+  content: "\e92d";
+}
+.icon-shopping-cart:before {
+  content: "\e92e";
+}
+.icon-tracking-location:before {
+  content: "\e92f";
+}
+.icon-submit:before {
+  content: "\e930";
+}
+.icon-payment:before {
+  content: "\e931";
+}
+.icon-panic-sos-emergency-button:before {
+  content: "\e932";
+}
+.icon-face-scan:before {
+  content: "\e933";
+}
+.icon-ride-now-or-ride-later-copy:before {
+  content: "\e934";
+}
+.icon-gift:before {
+  content: "\e935";
+}
+.icon-geolocation:before {
+  content: "\e936";
+}
+.icon-Doorstep:before {
+  content: "\e937";
+}
+.icon-biding:before {
+  content: "\e938";
+}
+.icon-uiux1:before {
+  content: "\e939";
+}
+.icon-fill-carrent:before {
+  content: "\e98a";
+}
+.icon-fill-store:before {
+  content: "\e98b";
+}
+.icon-fill-nearby:before {
+  content: "\e98c";
+}
+.icon-fill-genral-item:before {
+  content: "\e98d";
+}
+.icon-fill-medical-services:before {
+  content: "\e98e";
+}
+.icon-fill-tracking-famaily-and-friends:before {
+  content: "\e98f";
+}
+.icon-fill-carpoll:before {
+  content: "\e990";
+}
+.icon-filll-real-estae:before {
+  content: "\e991";
+}
+.icon-fill-hanymna:before {
+  content: "\e992";
+}
+.icon-fill-video-conslutions:before {
+  content: "\e993";
+}
+.icon-fill-bid:before {
+  content: "\e994";
+}
+.icon-fill-genine:before {
+  content: "\e995";
+}
+.icon-fill-food:before {
+  content: "\e996";
+}
+.icon-fill-parcel:before {
+  content: "\e997";
+}
+.icon-fill-taxi:before {
+  content: "\e998";
+}
