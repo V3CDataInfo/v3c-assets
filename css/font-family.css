@@ -15,6 +15,97 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-time_b:before {
+  content: "\ea79";
+}
+.icon-wallet_b:before {
+  content: "\ea7a";
+}
+.icon-driver_b:before {
+  content: "\ea7b";
+}
+.icon-employe_b:before {
+  content: "\ea7c";
+}
+.icon-money_b:before {
+  content: "\ea7d";
+}
+.icon-setting_b:before {
+  content: "\ea7e";
+}
+.icon-support_b:before {
+  content: "\ea7f";
+}
+.icon-code_a:before {
+  content: "\ea80";
+}
+.icon-update_a:before {
+  content: "\ea81";
+}
+.icon-ai_a:before {
+  content: "\ea82";
+}
+.icon-global_a:before {
+  content: "\ea83";
+}
+.icon-launched_a:before {
+  content: "\ea68";
+}
+.icon-nda_a:before {
+  content: "\ea69";
+}
+.icon-repeat_clients_a:before {
+  content: "\ea6a";
+}
+.icon-team_a:before {
+  content: "\ea6b";
+}
+.icon-top_a:before {
+  content: "\ea6c";
+}
+.icon-established_a:before {
+  content: "\ea6d";
+}
+.icon-note_a:before {
+  content: "\ea6e";
+}
+.icon-call_a:before {
+  content: "\ea6f";
+}
+.icon-email_a:before {
+  content: "\ea70";
+}
+.icon-subject_a:before {
+  content: "\ea71";
+}
+.icon-user_a:before {
+  content: "\ea72";
+}
+.icon-glob_a:before {
+  content: "\ea73";
+}
+.icon-badge_a:before {
+  content: "\ea74";
+}
+.icon-lock_a:before {
+  content: "\ea75";
+}
+.icon-rocket_a:before {
+  content: "\ea76";
+}
+.icon-license_a:before {
+  content: "\ea77";
+}
+.icon-headphone_a:before {
+  content: "\ea78";
+}
+.icon-massage-outline:before {
+  content: "\ea66";
+}
+.icon-maid:before {
+  content: "\ea67";
+}
 .icon-otp-verification:before {
   content: "\ea55";
 }
