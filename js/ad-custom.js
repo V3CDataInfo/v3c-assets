@@ -1,4 +1,4 @@
-document.addEventListener("jquery:ready", function () {
+document.addEventListener("DOMContentLoaded", function () {
   function afterLoad(fn) {
     const run = () => requestAnimationFrame(fn);
     if (document.readyState === "complete") run();
@@ -26,36 +26,6 @@ document.addEventListener("jquery:ready", function () {
           slidesToScroll: 2,
           dots: false,
           responsive: [
-            {
-              breakpoint: 991,
-              settings: { slidesToShow: 2, slidesToScroll: 1 },
-            },
-            {
-              breakpoint: 575,
-              settings: { slidesToShow: 1, slidesToScroll: 1 },
-            },
-          ],
-        });
-
-         $(".xj-user-slider, .xj-driver-slider, .xj-store-slider").slick({
-            autoplay: true,
-            autoplaySpeed: 1000,
-            speed: 800,
-            draggable: true,
-            infinite: true,
-            slidesToShow: 6,
-            slidesToScroll: 2,
-            arrows: false,
-            dots: false,
-          responsive: [
-            {
-                    breakpoint: 1281,
-                    settings: {
-                        slidesToShow: 5,
-                        slidesToScroll: 2,
-                        infinite: true
-                    }
-                },
             {
               breakpoint: 991,
               settings: { slidesToShow: 2, slidesToScroll: 1 },
