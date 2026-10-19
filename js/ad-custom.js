@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("jquery:ready", function () {
   function afterLoad(fn) {
     const run = () => requestAnimationFrame(fn);
     if (document.readyState === "complete") run();
