@@ -15,7 +15,119 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-b_bag:before {
+  content: "\ea84";
+}
+.icon-b_cancel:before {
+  content: "\ea85";
+}
+.icon-b_chart:before {
+  content: "\ea86";
+}
+.icon-b_clock:before {
+  content: "\ea89";
+}
+.icon-b_close:before {
+  content: "\ea8a";
+}
+.icon-b_company:before {
+  content: "\ea8b";
+}
+.icon-b_doc:before {
+  content: "\ea8c";
+}
+.icon-b_doller:before {
+  content: "\ea8d";
+}
+.icon-b_faq:before {
+  content: "\ea8e";
+}
+.icon-b_file:before {
+  content: "\ea8f";
+}
+.icon-b_flight:before {
+  content: "\ea90";
+}
+.icon-b_food:before {
+  content: "\ea91";
+}
+.icon-b_ideal:before {
+  content: "\ea92";
+}
+.icon-b_ideal .path2:before {
+  content: "\ea93";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-b_ideal .path3:before {
+  content: "\ea94";
+  margin-left: -1em;
+  color: rgb(22, 119, 255);
+}
+.icon-b_ideal .path4:before {
+  content: "\ea95";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-b_ideal .path5:before {
+  content: "\ea96";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-b_image:before {
+  content: "\ea97";
+}
+.icon-b_key:before {
+  content: "\ea98";
+}
+.icon-b_king:before {
+  content: "\ea99";
+}
+.icon-b_launch:before {
+  content: "\ea9a";
+}
+.icon-b_list:before {
+  content: "\ea9b";
+}
+.icon-b_massage:before {
+  content: "\ea9c";
+}
+.icon-b_menu:before {
+  content: "\ea9d";
+}
+.icon-b_parcel:before {
+  content: "\ea9e";
+}
+.icon-b_price:before {
+  content: "\ea9f";
+}
+.icon-b_quote:before {
+  content: "\eaa0";
+}
+.icon-b_security:before {
+  content: "\eaa1";
+}
+.icon-b_share:before {
+  content: "\eaa2";
+}
+.icon-b_water:before {
+  content: "\eaa3";
+}
+.icon-b_wine:before {
+  content: "\eaa4";
+}
+.icon-b_yellow .path1:before {
+  content: "\eaa5";
+  color: rgb(0, 0, 0);
+}
+.icon-b_yellow .path2:before {
+  content: "\eaa6";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-b_announcement:before {
+  content: "\eaa7";
+}
 .icon-time_b:before {
   content: "\ea79";
 }
