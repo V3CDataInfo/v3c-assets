@@ -1,15 +1,35 @@
 :root {
   --font-nunito: "Nunito Sans", "Nunito Sans Fallback", sans-serif;
 }
-
-
-.buy-button,
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  box-shadow: 0 0 0 1000px #ffffff inset !important;
+  -webkit-text-fill-color: #000 !important; /* text ka color */
+  caret-color: #000;
+  transition: background-color 9999s ease-in-out 0s;
+}
+input:autofill {
+  background-color: #fff !important;
+  color: #000 !important;
+}
 header {
   transition: all .5s ease 0s;
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
   -ms-transition: all .5s ease 0s;
   -o-transition: all .5s ease 0s
+}
+.buy-button {
+  transition: background-color .5s ease 0s, color .5s ease 0s;
+  -webkit-transition: background-color .5s ease 0s, color .5s ease 0s;
+  -moz-transition: background-color .5s ease 0s, color .5s ease 0s;
+  -ms-transition: background-color .5s ease 0s, color .5s ease 0s;
+  -o-transition: background-color .5s ease 0s, color .5s ease 0s
 }
 .scroll-downs {
   position: absolute;
@@ -1359,12 +1379,13 @@ footer .p-text {
 .form-holder:last-child {
   margin-bottom: 0;
 }
-.form-holder>img {
+.form-holder>i {
   position: absolute;
   height: 15px;
   left: 13px;
   top: 11px;
 }
+
 .popupform .form-holder select {
   color: #666;
   min-height: 39px;
