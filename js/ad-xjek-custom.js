@@ -8,7 +8,7 @@ document.addEventListener("jquery:ready", function () {
   if (typeof $ !== "undefined") {
     $(window).on("load", function () {
       $("#enqure-popup #cMessage").html(
-        "Send me more details about Uber App Clone..",
+        "Send me more details about Gojek App Clone..",
       );
     });
 
