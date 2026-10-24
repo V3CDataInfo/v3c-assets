@@ -17,6 +17,13 @@ input:autofill {
   background-color: #fff !important;
   color: #000 !important;
 }
+input,
+button
+textarea,
+select
+{
+  font-family: var(--common-font), sans-serif;
+}
 header {
   transition: all .5s ease 0s;
   -webkit-transition: all .5s ease 0s;
@@ -1539,6 +1546,7 @@ footer .p-text {
   -o-transition: all 0.5s ease 0s;
   text-transform: capitalize;
   font-weight: 600;
+  font-family: var(--common-font), sans-serif;
 }
 .form-table .popupform .button-pu:hover {
   background: linear-gradient(180deg, rgba(255, 110, 0, 0.71) 0%, #FF6E00 100%);
